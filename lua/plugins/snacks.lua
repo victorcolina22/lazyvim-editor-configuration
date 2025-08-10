@@ -6,9 +6,20 @@ return {
     picker = {
       sources = {
         explorer = {
+          hidden = true,
+          ignored = true,
           layout = {
             layout = {
               position = "right",
+            },
+          },
+          win = {
+            list = {
+              keys = {
+                ["o"] = "confirm",
+                ["l"] = "explorer_open", -- open with system application
+                ["C"] = "explorer_close_all",
+              },
             },
           },
         },

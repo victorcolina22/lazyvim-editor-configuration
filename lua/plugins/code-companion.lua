@@ -42,7 +42,7 @@ return {
           return require("codecompanion.adapters").extend("ollama", {
             schema = {
               model = {
-                default = "mistral",
+                default = "qwen2.5-coder",
               },
             },
           })

@@ -76,6 +76,7 @@ return {
       ["<C-y>"] = { "select_and_accept" },
       ["<C-j>"] = { "select_next" },
       ["<C-k>"] = { "select_prev" },
+      ["<S-k>"] = { "show_signature", "hide_signature", "fallback" },
     },
   },
   ---@param opts blink.cmp.Config | { sources: { compat: string[] } }
