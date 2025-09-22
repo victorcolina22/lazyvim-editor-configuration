@@ -74,9 +74,9 @@ return {
     keymap = {
       preset = "enter",
       ["<C-y>"] = { "select_and_accept" },
-      ["<C-j>"] = { "select_next", "fallback" },
-      ["<C-k>"] = { "select_prev", "fallback" },
-      ["<C-S-k>"] = { "show_signature", "hide_signature", "fallback" },
+      ["<C-j>"] = { "select_next", "fallback_to_mappings" },
+      ["<C-k>"] = { "select_prev", "fallback_to_mappings" },
+      ["<C-S-k>"] = { "show_signature", "hide_signature", "fallback_to_mappings" },
     },
   },
   ---@param opts blink.cmp.Config | { sources: { compat: string[] } }
