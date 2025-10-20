@@ -42,15 +42,15 @@ return {
           return require("codecompanion.adapters").extend("ollama", {
             schema = {
               model = {
-                default = "llama3.1:8b",
+                default = "qwen2.5-coder:latest",
               },
             },
           })
         end,
       },
     })
-    vim.api.nvim_set_keymap("n", "<leader>cca", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true })
-    vim.api.nvim_set_keymap("v", "<leader>cca", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true })
+    vim.api.nvim_set_keymap("n", "<leader>Ca", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true })
+    vim.api.nvim_set_keymap("v", "<leader>Ca", "<cmd>CodeCompanionActions<cr>", { noremap = true, silent = true })
     vim.api.nvim_set_keymap("v", "ga", "<cmd>CodeCompanionAdd<cr>", { noremap = true, silent = true })
   end,
 }
