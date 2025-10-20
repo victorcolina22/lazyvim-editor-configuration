@@ -52,3 +52,6 @@ keymap.set("n", "<S-l>", "<cmd>tabn<CR>", { desc = "Go to next tab" }) -- go to 
 keymap.set("n", "<S-h>", "<cmd>tabp<CR>", { desc = "Go to next tab" }) -- go to previous tab
 
 keymap.set("n", "<leader>ml", "<C-v>", { desc = "Insert the same characters across multiple lines" }) -- insert the same characters across multiple lines
+
+-- quick fix: add missing properties
+keymap.set("n", "<leader>a", vim.lsp.buf.code_action, { desc = "LSP Code Action" })
