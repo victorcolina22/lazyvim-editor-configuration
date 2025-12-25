@@ -8,7 +8,7 @@ opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expan tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
-opt.relativenumber = false -- show relative number for line number
+opt.relativenumber = true -- show relative number for line number
 
 opt.wrap = false
 

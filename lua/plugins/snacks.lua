@@ -131,6 +131,9 @@ return {
               position = "right",
             },
           },
+          config = function(opts)
+            return require("snacks.picker.source.explorer").setup(opts)
+          end,
           win = {
             list = {
               keys = {
