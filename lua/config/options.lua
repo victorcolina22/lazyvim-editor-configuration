@@ -47,4 +47,4 @@ vim.g.mapleader = " "
 
 -- spell check
 vim.opt.spell = true
-vim.opt.spelllang = { "en", "es" }
+vim.opt.spelllang = { "en" }
