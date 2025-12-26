@@ -5,7 +5,7 @@ local opt = vim.opt
 -- Tabs & Indentation
 opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
-opt.expandtab = true -- expan tab to spaces
+opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
 opt.relativenumber = true -- show relative number for line number
@@ -44,3 +44,7 @@ vim.opt.laststatus = 3
 
 -- spacebar leader key
 vim.g.mapleader = " "
+
+-- spell check
+vim.opt.spell = true
+vim.opt.spelllang = { "en", "es" }
