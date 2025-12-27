@@ -73,3 +73,4 @@ require("lazy").setup({
 -- Core functionality
 require("config.floating_terminal").setup()
 require("config.large_files").setup()
+require("config.nodejs").setup()
